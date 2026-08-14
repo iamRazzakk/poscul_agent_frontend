@@ -5,20 +5,20 @@ import { Plus } from "lucide-react";
 
 const faqs = [
   {
-    q: "What’s the typical timeline from idea to v1?",
-    a: "A first site, still, or research brief can land in the same session. Full product copilots still take a focused sprint — most teams see a usable v1 in days, not quarters.",
+    q: "What can I do in Poscul?",
+    a: "Chat with AI, run deep research, generate images and video, and build a website from one prompt — all in the same workspace.",
   },
   {
-    q: "What do we need to start?",
-    a: "An email and a problem statement. No credit card on Starter. Bring sample copy, a brand hint, or a research question — that’s enough for the first thread.",
+    q: "Do I need a credit card to start?",
+    a: "No. Starter includes chat, a set of images, and one website draft. Upgrade when you need research, video, or unlimited sites.",
   },
   {
-    q: "Which models and stack do you use?",
-    a: "Frontier chat models, research with citations, image and video engines, and a site composer. Switch models inside one thread without losing context.",
+    q: "Can I switch from chat to image or video?",
+    a: "Yes. Stay in the thread and open Image, Video, Research, or Site. The brief stays with you.",
   },
   {
-    q: "Are model and API costs included in pricing?",
-    a: "Starter and Pro include generation quotas. Heavy video and research on Team can add usage — we’ll show it before you run, not as a surprise invoice.",
+    q: "How does the one-prompt website work?",
+    a: "Describe the page in a sentence. Poscul composes layout, type, and copy and shows a live preview you can iterate on.",
   },
 ];
 
@@ -33,7 +33,7 @@ export function Faq() {
           Frequently asked{" "}
           <span className="font-ui not-italic">questions</span>
         </h2>
-        <div className="mt-12 divide-y divide-[#333] border-y border-[#333]">
+        <div className="mt-12 divide-y divide-[#1e3a5f] border-y border-[#1e3a5f]">
           {faqs.map((item, i) => {
             const active = open === i;
             return (
@@ -51,7 +51,7 @@ export function Faq() {
                   />
                 </button>
                 {active ? (
-                  <p className="max-w-3xl pb-6 text-[15px] leading-7 text-[#999]">
+                  <p className="max-w-3xl pb-6 text-[15px] leading-7 text-[#93a4c0]">
                     {item.a}
                   </p>
                 ) : null}
