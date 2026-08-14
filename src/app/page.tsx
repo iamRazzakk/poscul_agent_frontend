@@ -1,4 +1,3 @@
-import { Cursor } from "@/components/landing/cursor";
 import { Nav } from "@/components/landing/nav";
 import { Hero } from "@/components/landing/hero";
 import { About } from "@/components/landing/about";
@@ -17,7 +16,6 @@ import { Footer } from "@/components/landing/footer";
 export default function Home() {
   return (
     <div className="landing min-h-screen">
-      <Cursor />
       <Nav />
       <main>
         <Hero />
