@@ -204,14 +204,6 @@ html {
   font-family: var(--font-urbanist), sans-serif;
 }
 
-@media (min-width: 1024px) {
-  .landing,
-  .landing a,
-  .landing button {
-    cursor: none;
-  }
-}
-
 .font-display {
   font-family: var(--font-arapey), serif;
 }
