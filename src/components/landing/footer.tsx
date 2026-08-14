@@ -3,32 +3,35 @@ import { Logo } from "@/components/brand";
 
 export function Footer() {
   return (
-    <footer className="border-t border-[#333]">
+    <footer className="border-t border-[#1e3a5f]">
       <div className="mx-auto flex max-w-[1440px] flex-col gap-10 px-5 py-12 md:flex-row md:items-end md:justify-between md:px-12">
         <div>
           <Logo light />
-          <p className="mt-4 max-w-xs text-[14px] leading-6 text-[#666]">
-            Your AI sprint team on demand. Chat, research, generate, and
-            publish.
+          <p className="mt-4 max-w-xs text-[14px] leading-6 text-[#93a4c0]">
+            Chat with AI, deep research, generate image and video, and make a
+            website from one prompt.
           </p>
         </div>
-        <div className="flex flex-wrap gap-8 text-[14px] text-[#999]">
-          <Link href="#about" className="hover:text-white">
-            About
+        <div className="flex flex-wrap gap-8 text-[14px] text-[#93a4c0]">
+          <Link href="/studio" className="hover:text-white">
+            Chat
           </Link>
-          <Link href="#services" className="hover:text-white">
-            Services
+          <Link href="/studio/research" className="hover:text-white">
+            Research
           </Link>
-          <Link href="#works" className="hover:text-white">
-            Works
+          <Link href="/studio/image" className="hover:text-white">
+            Image
           </Link>
-          <Link href="#contact" className="hover:text-white">
-            Contact
+          <Link href="/studio/video" className="hover:text-white">
+            Video
+          </Link>
+          <Link href="/studio/site" className="hover:text-white">
+            Website
           </Link>
         </div>
       </div>
-      <div className="border-t border-[#333]">
-        <p className="mx-auto max-w-[1440px] px-5 py-5 text-[12px] text-[#666] md:px-12">
+      <div className="border-t border-[#1e3a5f]">
+        <p className="mx-auto max-w-[1440px] px-5 py-5 text-[12px] text-[#64748b] md:px-12">
           © {new Date().getFullYear()} Poscul. All rights reserved.
         </p>
       </div>
