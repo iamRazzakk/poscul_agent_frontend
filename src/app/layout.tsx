@@ -36,9 +36,9 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Poscul — Your AI workspace on demand",
+  title: "Poscul — Chat, research, image, video, and websites",
   description:
-    "From chat to research, image, video, and a website from one prompt. Poscul plugs into how you already work.",
+    "Chat with AI, run deep research, generate images and video, and build a website from one prompt — in one workspace.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
